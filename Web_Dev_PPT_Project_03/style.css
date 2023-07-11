@@ -1,0 +1,77 @@
+/* UNIVERSAL SELECTORS */
+/* DECORATING TO THE CODE STARTED */
+
+/* @media  screen and(min-width:1200px) { */
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------------- */
+/* ----------------BODY DECORATION ------ */
+/* ----------------------------------------------- */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left:39%;
+    top:31%;
+}
+
+/*----- HEADIND DECOR------ */
+
+h1{
+    color: #1313ad;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size:45px;
+   position: relative;
+   right:90px;
+}
+
+.All-content{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    top:55px;
+    left:29px;
+    line-height:35px;
+}
+
+.fees{
+   position: relative;
+   right:81px; 
+}
+
+
+/* ---------------------------------------------- */
+/* -------------------APPLYING MEDIA QUERIES---FOR SMALL SCREEN-------- */
+/* /*--------------------MAKING ITS RESPONSIVE-----------------------  */
+
+@media screen and (max-width: 768px) {
+body{
+    background-color: #ffffff;
+    height: 100%;
+   max-width: 100%;
+    }
+ 
+    .All-content{
+    color: #000000;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right:11%;
+    }
+
+    h1{
+        font-weight: 600;
+    }  
+    }

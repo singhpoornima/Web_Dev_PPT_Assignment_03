@@ -1,0 +1,56 @@
+/* ----------------------UNIVERSAL SELECTORS---------- */
+/* -------------------STARTED DECORATING----------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------BODY DECORATION------------- */
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    color: #ffffff;
+    /* overflow-x: hidden; */
+}
+
+/* ---HEADING DECOR--- */
+
+h1{
+    color: #86cbe6;
+    font-weight: 300;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+table{
+    border-collapse: collapse;
+    width:91%;
+    border: 1px solid #ffffff; 
+    margin-top:41px;
+    margin-left:5%;
+    padding-right: 11%;
+}
+
+td,  th{
+    text-align: left;
+    padding:11px;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* -------------------------APPLYING MEDIA QUERIES FOR SMALL SCREEN DEVICES-------------- */
+/* ----------------MAKING ITS RESPONSIVE---------- */
+/* -------------------------------------------------- */
+
+@media screen and (max-width:768px) {
+    .phone{
+        display: none;
+    }
+
+    body{
+        width: 100%;
+    }
+}
